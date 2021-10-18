@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 
 using Accord.Math;
 
-namespace T15.P._1Dotnet
+namespace BruteForce
 {
     public static class Program
     {
