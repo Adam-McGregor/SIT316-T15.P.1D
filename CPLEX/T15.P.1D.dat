@@ -1,0 +1,11 @@
+/*********************************************
+ * OPL 20.1.0.0 Data
+ * Author: Adam McGregor
+ * Creation Date: 17 Oct 2021 at 3:06:11 am
+ *********************************************/
+
+//connection to the provided distances data sheet
+SheetConnection ExcelData("Data_cities.xlsx");
+
+//Get cities from the sheet first cell of data to last cell
+Cities from SheetRead(ExcelData, "B2:P16");
